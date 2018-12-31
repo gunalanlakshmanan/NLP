@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>Timeline</h1>
+    {% for sentence in sentences %}
+        <article class="media content-section">
+          <div class="media-body">
+              <p class="article-content">{{ sentence.year }} - {{ sentence.sentence}}.</p>
+          </div>
+        </article>
+    {% endfor %}
+{% endblock %}
