@@ -11,7 +11,7 @@ html5lib==1.0.1
 idna==2.7
 itsdangerous==1.1.0
 Jinja2==2.10
-lxml==4.2.5
+lxml==4.6.5
 MarkupSafe==1.1.0
 nltk==3.3
 numpy==1.15.4
